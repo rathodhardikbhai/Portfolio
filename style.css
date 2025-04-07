@@ -582,26 +582,26 @@ footer {
     position: relative;
   }
   
-  #education .container {
+#education .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
   }
   
-  #education h2 {
+#education h2 {
     text-align: center;
     margin-bottom: 60px;
     font-size: 36px;
     color: #2c3e50;
   }
   
-  .timeline {
+.timeline {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
   }
   
-  .timeline::after {
+.timeline::after {
     content: '';
     position: absolute;
     width: 6px;
@@ -613,14 +613,14 @@ footer {
     border-radius: 10px;
   }
   
-  .timeline-item {
+.timeline-item {
     padding: 10px 40px;
     position: relative;
     width: 50%;
     box-sizing: border-box;
   }
   
-  .timeline-item::after {
+.timeline-item::after {
     content: '';
     position: absolute;
     width: 25px;
@@ -632,24 +632,24 @@ footer {
     z-index: 1;
   }
   
-  .timeline-item.left {
+.timeline-item.left {
     left: 0;
   }
   
-  .timeline-item.right {
+.timeline-item.right {
     left: 50%;
     
   }
   
-  .timeline-item.left::after {
+.timeline-item.left::after {
     right: -12px;
   }
   
-  .timeline-item.right::after {
+.timeline-item.right::after {
     left: -12px;
   }
   
-  .timeline-content {
+.timeline-content {
     padding: 20px 30px;
     background-color: white;
     border-radius: 8px;
@@ -663,23 +663,23 @@ footer {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
-  .timeline-content h3 {
+.timeline-content h3 {
     margin-top: 0;
     color: #3498db;
   }
   
-  .timeline-content h4 {
+.timeline-content h4 {
     color: #7f8c8d;
     margin: 5px 0 10px;
   }
   
-  .timeline-content p {
+.timeline-content p {
     margin: 10px 0 0;
     line-height: 1.6;
     color: #34495e;
   }
   
-  /* Responsive layout - makes the timeline vertical on small screens */
+/* Responsive layout - makes the timeline vertical on small screens */
   @media screen and (max-width: 768px) {
     .timeline::after {
       left: 31px;
