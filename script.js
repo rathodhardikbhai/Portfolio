@@ -1,5 +1,5 @@
 const typingText = document.getElementById('typingText');
-        const texts = ["Hardik Rathod", "MCA Student", "AI Enthusiast", "Web Developer"];
+        const texts = ["Hardik Rathod", "MCA Student", "Full Stack Developer", "Web Developer"];
         let textIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
