@@ -48,7 +48,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    gap:10px;
+    gap:15px;
 }
 
 .header-content img{
