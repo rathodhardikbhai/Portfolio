@@ -574,9 +574,9 @@ footer {
     .header-content {
         position: relative;
     }
-    .header-content a{
+/*     .header-content a{
         margin-left: 1px;
-    }	
+    }	 */
     .mobile-toggle {
         display: block;
     }
